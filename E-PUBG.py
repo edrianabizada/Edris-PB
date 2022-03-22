@@ -9,40 +9,6 @@ print("""
 ╚═╝      ╚═════╝ ╚═════╝  ╚═════╝ 
     t.me/edrisnabizada420
     Creaded by Edris Nabizada
-print'                                        '
-jalan("\x1b[1;92mINPUT USERNAME & PASSWORD")
-print 25* '\033[1;96m-'
-print'                                        '
-CorrectUsername = "edris"
-CorrectPasscode = "nabizada"
-
-loop = 'true'
-while (loop == 'true'):
-    username = raw_input("                   \x1b[1;93mINPUT USERNAME \x1b[1;96m: ")
-    if (username == CorrectUsername):
-            print """
-            \033[1;92m        Correct
-                  """
-            loop = 'false'
-    else:
-            print "\033[1;91m☠️WRONG"
-            os.system('xdg-open https://t.me/Best_Hacker00420')
-
-loop = 'true'
-while (loop == 'true'):
-    passcode = raw_input("                   \x1b[1;93mINPUT PASSWORD \x1b[1;96m: ")
-    if (passcode == CorrectPasscode):
-            print """
-            \033[1;92m        Correct
-                  """
-                  
-            jalan("[𝕳𝕿𝕽] Logging in\x1b[1;93m ●\x1b[1;91m ●\x1b[1;96m ●\x1b[1;95m ●")     
-                 
-            loop = 'false'
-    else:
-            print "\033[1;91m☠️WRONG"
-            os.system('xdg-open https://t.me/Best_Hacker00420')
-     
 """)
 ID= input('[+] ID : ')
 token = input('[+] TOKEN ROBOT : ')
